@@ -13,9 +13,9 @@ responsive to mobile view on various screen width as below */
 
 /*content_padding is used for padding from top from header*/
 .content_padding {
-  padding-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .page_heading {
@@ -107,7 +107,7 @@ responsive to mobile view on various screen width as below */
     box-sizing: border-box;
   }
   .content_padding {
-    padding-top: 2%;
+    padding-top: 23%;
     margin-left: 3%;
     margin-right: 3%;
   }
@@ -123,7 +123,7 @@ responsive to mobile view on various screen width as below */
     box-sizing: border-box;
   }
   .content_padding {
-    padding-top: 5%;
+    padding-top: 35%;
     margin-left: 5%;
     margin-right: 5%;
   }

@@ -4,4 +4,16 @@
   width: 100% !important;
   background-size: cover;
 }
-
+.Home_Main_heading {
+  color: #fff;
+  font-size: 61px;
+  line-height: 62px;
+  font-weight: 900;
+  text-align: center;
+}
+.home_button_search {
+  outline: none !important;
+  background-color: #ff4605 !important;
+  color: #fff !important;
+  padding: 11px !important;
+}
