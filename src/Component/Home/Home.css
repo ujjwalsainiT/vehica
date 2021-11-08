@@ -1,0 +1,7 @@
+.home_backImage {
+  background-image: url("./homeimage.jpg");
+  height: 700px;
+  width: 100% !important;
+  background-size: cover;
+}
+
