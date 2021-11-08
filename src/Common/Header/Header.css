@@ -1,8 +1,8 @@
 .MainHeader {
-  background-color: transparent !important;
+  background-color: #fff !important;
 }
 .transparent {
-  background-color: #fff !important;
+  background-color: transparent !important;
 }
 .header_padding {
   width: 100%;
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between !important;
 }
-.transparent .header_link_color {
+.MainHeader .header_link_color {
   color: #000;
   font-weight: 600 !important;
   font-size: 14px;
@@ -31,7 +31,7 @@
   border-radius: 4px;
 }
 
-.MainHeader .header_link_color {
+.transparent .header_link_color {
   color: #fff;
   font-weight: 600 !important;
   font-size: 14px;
@@ -41,7 +41,7 @@
   border-radius: 4px;
 }
 .header_link_color:hover {
-  color: red;
+  color: #ff4605;
 }
 
 .dropdown_content_link {
@@ -147,7 +147,7 @@
   display: block;
 }
 
-.transparent .Header_button {
+.MainHeader .Header_button {
   background: 0 0 !important;
   color: #ff4605 !important;
   border: 1px solid #ff4605 !important;
@@ -158,7 +158,7 @@
   font-size: 16px !important;
   outline: none !important;
 }
-.MainHeader .Header_button {
+.transparent .Header_button {
   background: 0 0 !important;
   color: #fff !important;
   border: 1px solid #ff4605 !important;
@@ -169,11 +169,10 @@
   font-size: 16px !important;
   outline: none !important;
 }
-.MainHeader .Header_button:hover {
-  background-color: #ff4605 !important;
-  
-}
 .transparent .Header_button:hover {
+  background-color: #ff4605 !important;
+}
+.MainHeader .Header_button:hover {
   background-color: #ff4605 !important;
   color: #fff !important;
 }

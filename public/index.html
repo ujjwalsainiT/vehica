@@ -54,9 +54,9 @@
       $(document).ready(function () {
         $(window).on('scroll', function () {
           if ($(window).scrollTop()) {
-            $('header').removeClass('MainHeader').addClass('transparent');
+            $('header').removeClass('transparent').addClass('MainHeader');
           } else {
-            $('header').addClass('MainHeader').removeClass("transparent");    
+            $('header').addClass('transparent').removeClass("MainHeader");    
           }
         })
       })

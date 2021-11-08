@@ -26,10 +26,10 @@ const Header = (props) => {
     }
     return (
         <div className="topheader">
-            <AppBar position="fixed" className="MainHeader">
+            <AppBar position="fixed" className="transparent">
                 <Toolbar className="header_padding">
                     <div>
-                        <img src="https://demo.vehica.com/wp-content/uploads/2021/09/vehica-logo-dark-retina.png" alt="" className="header_logoformating hover_cursor" onClick={() => props.history.push("/home")} />
+                        <img src="https://demo.vehica.com/wp-content/uploads/2021/09/vehica-logo-dark-retina.png" alt="" className="header_logoformating hover_cursor"/>
                     </div>
                     <div className="header_grow" />
                     <div className="header_links">

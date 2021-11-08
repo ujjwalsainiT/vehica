@@ -8,33 +8,45 @@ function Footer(props) {
     return (
         <>
 
-            <div className="mt-5 ml-4 mr-4">
-                <hr style={{ width: "80%" }} />
-                <Grid className="Component_main_grid mt-2 p-3 ">
-                    <Grid item md={3} className="p-3">
-                        <div><strong>LOGO</strong></div>
+            <div className="footer_color">
+                <Grid className="Component_main_grid mt-2 pt-5 pl-3 pr-3 ">
+                    <Grid item md={2} className="p-3">
+                        <div><img src="https://demo.vehica.com/wp-content/uploads/2021/09/vehica-logo-white-retina.png" alt="" className="Footer_Logo" /></div>
+                    </Grid>
+                    <Grid item md={2} className="p-3">
+                        <ul>
+                            <li className="Footer_heading_Links">Listings</li>
+                            <li className="Footer_heading_Links">FAQ</li>
+                            <li className="Footer_heading_Links">About Us</li>
+                        </ul>
+                    </Grid>
+                    <Grid item md={2} className="p-3">
+                        <ul>
+                            <li className="Footer_heading_Links">Blog</li>
+                            <li className="Footer_heading_Links">Our Team</li>
+                            <li className="Footer_heading_Links">Contact</li>
+                        </ul>
                     </Grid>
                     <Grid item md={3} className="p-3">
-                        <div className="Footer_heading_Links" onClick={() => props.history.push("/home")}>Home</div>
-                        <div className="Footer_heading_Links mt-1" onClick={() => props.history.push("/features")}>Features</div>
-                        <div className="Footer_heading_Links mt-1" onClick={() => props.history.push("/support")}>Support</div>
-                        <div className="Footer_heading_Links mt-1" onClick={() => props.history.push("/about-us")}>About Us</div>
-                        <div className="Footer_heading_Links mt-1" onClick={() => props.history.push("/resources")}>Resources</div>
-                        <div className="Footer_heading_Links mt-1" onClick={() => props.history.push("/contact-us")}>Contact Us</div>
-                        <div className="Footer_heading_Links mt-1" onClick={() => props.history.push("/login")}>Login</div>
+
+                        <div className="footer_content">Award-winning, family owned dealership of new and pre-owned vehicles with
+                            several locations across the city. Lowest prices and the best customer service guaranteed.</div>
                     </Grid>
                     <Grid item md={3} className="p-3">
-                        <div><span className="Footer_heading_Links mt-1"><i class="fa fa-phone"></i></span><span className="ml-2">+ 1 555 555 555</span></div>
-                        <div><span className="Footer_heading_Links mt-1"><i class="fa fa-envelope"></i></span><span className="ml-2">info@gmail.com</span></div>
-                        <div><span className="Footer_heading_Links mt-1"><i class="fa fa-instagram"></i></span><span className="ml-2">Instagram.com</span></div>
-                        <div><span className="Footer_heading_Links mt-1"><i class="fa fa-facebook"></i></span><span className="ml-2">facebook.com</span></div>
-                    </Grid>
-                    <Grid item md={3} className="p-3">
-                        <div className="mt-1">Lorem ipsum</div>
-                        <div className="mt-1">Lorem ipsum is a placeholder text commonly used to demonstrate the visual
-                            form of a document or a typeface without relying on meaningful content</div>
+                        <div className="Footer_heading_Links_contact text-right">
+                            <span>(123)</span><span className="contact_color ml-2">556-765</span>
+                        </div>
+                        <div className="footer_content mt-2 text-right">support@vehica.com</div>
+                        <div className="footer_content mt-2 text-right">West 12th Street<br />
+                            New York, NY, USA</div>
                     </Grid>
                 </Grid>
+
+                <hr style={{ color: "white" }} />
+                <div className="mt-5 pb-5 pl-3 footer_content">
+                    Copyright © {new Date().getFullYear()}. All rights reserved. Privacy Policy
+                </div>
+
             </div>
         </>
     )
